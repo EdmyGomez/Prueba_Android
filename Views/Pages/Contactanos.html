@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header_pages">
+        <div class="container_header_index_top">
+            <div class="header_index-top">
+                <img src="/Media/img/logo.svg" alt="img_logo">
+            </div>
+            <nav class="container_item_nav">
+                <ul class="container_item_ul">
+                    <li class="item_header"><a class="item_header" href="#">Nosotros</a></li>
+                    <li class="item_header"><a class="item_header" href="#">Anuncios</a></li>
+                    <li class="item_header"><a class="item_header" href="#">Blog</a></li>
+                    <li class="item_header"><a class="item_header" href="#">Contacto</a></li>
+                    <li>
+                        <button class="button_index_darkmode" type="button"><img src="/Media/img/dark-mode.svg"
+                                alt="nurbo" width="20px"></button>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+    <section>
+        <h1 class="normal text_center margin-20">Contacto</h1>
+        <img class="width-100_100 height" src="/Media/img/destacada3.jpg" alt="" srcset="">
+    </section>
+    <section>
+        <h1 class="normal text_center margin-20">Llene el Formulario de Contacto</h1>
+        <form action="">
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                <label for="name">Nombres</label><br>
+                <input type="text" name="name" id="name" placeholder="Nombre Completos" required>
+                <br>
+                <label for="correo">E-mail</label><br>
+                <input type="email" name='correo' id='correo' placeholder="Correo Electronico">
+                <br>
+                <label for="celular">Telefono</label><br>
+                <input type="tel" name='celular' id='celular' placeholder="Numero de Contacto" required>
+                <br>
+                <label for="textmensaje">Mensaje:</label><br>
+                <textarea name="textmensaje" id="textmensaje" cols="30" rows="5" maxlength="256"></textarea>
+
+                <!-- <label for="genero">Genero:</label>
+                <input type="radio" name="genero" id="genero" value="femenino" required>Femenino
+                <input type="radio" name="genero" id="genero" value="masculino">Masculino
+                <input type="radio" name="genero" id="genero" value="binarios">Binario
+                <input type="radio" name="genero" id="genero" value="otros">Otros
+                <br>
+                <label for="fnacimiento">Fecha nacimiento</label>
+                <input type="date" name="fechanacimiento" id="fnacimiento" required> -->
+
+
+            </fieldset>
+            <fieldset>
+                <legend>Informacion sobre la propiedad</legend>
+                <label for="name">Vende o Compra:</label><br>
+                <select name="inmuebles" id="inmuebles">
+                    <option value="" disabled selected>--Seleccione--</option>
+                    <option value="compra">Compra</option>
+                    <option value="vende">Vende</option>
+                    <option value="otros">Otro</option>
+                </select>
+                <br>
+                <label for="presupuesto" >Precio o Presupuesto </label><br>
+                <input type="number" name='presupuesto' id='presupuesto' placeholder="Precio o Presupuesto" >
+                <br>
+
+            </fieldset>
+            <fieldset>
+                <legend>Informacion sobre la propiedad</legend>
+                <br>
+                <!-- <p>Como desea ser contactado</p> -->
+                <!-- <br> -->
+                <label for="modocontacto">Como desea ser contactado</label>
+                <br>
+                <input type="radio" name="modocontacto" id="modocontacto" value="telefono" required>Telefono
+                <input type="radio" name="modocontacto" id="modocontacto" value="email" required>E-mail
+                <br>
+                <p >Si eligio Telefono, elija la fecha y la hora</p>
+                <label for="fecha">Fecha:</label><br>
+                <input type="date" name="fecha" id="fecha" date-date-format="DD MMMM YYYY">
+                <br>
+                <label for="hora">Hora:</label><br>
+                <input type="time" name="hora" id="hora">
+
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <div class="header_pages">
+            <nav class="container_item_nav ">
+                <ul class="container_item_ul margin-top-40px padding-left-0px">
+                    <li class="item_header"><a class="item_header" href="#">Nosotros</a></li>
+                    <li class="item_header"><a class="item_header" href="#">Anuncios</a></li>
+                    <li class="item_header"><a class="item_header" href="#">Blog</a></li>
+                    <li class="item_header"><a class="item_header" href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="container_footer">
+                <h2 class="color-white font-size-20">Todos los derechos Reservados 2021 &copy</h2>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
