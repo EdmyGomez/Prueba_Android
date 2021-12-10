@@ -10,6 +10,7 @@
 .header_index{
     background-image: url(/Media/img/header.jpg);
     /* background-size: contain; */
+    height:100vh;
     background-size: cover;
     background-position: center;
     background-repeat:no-repeat;
@@ -63,13 +64,13 @@ hr{
     text-decoration: none;
 }
 .header_index-top img{
-    width: 400px;
+    width: 350px;
 
 }
 
 /* BODY */
 .header_index-bottom{
-height: 600px;
+height: 500px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -271,5 +272,16 @@ justify-content: flex-end;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.height-100vh{
+    height: 100vh;
+}
+.icon_h3_title{
+    font-size:1.5rem;
+    text-transform: uppercase;
+}
+
+.justify-content_space-between{
+    justify-content: space-between;
 }
 
