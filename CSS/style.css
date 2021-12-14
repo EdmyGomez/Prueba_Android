@@ -192,6 +192,31 @@ justify-content: flex-end;
     border-radius:10px;
 }
 
+.seccion-inferior{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2rem;
+}
+.entrada-blog{
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    column-gap:2rem;
+}
+
+.texto-entrada h4{
+    margin: 0;
+    line-height: 1.4;
+
+}
+.texto-entrada h4::after{
+    content: "";
+    width:15rem;
+    height: .5rem;
+    background-color:green;
+    margin-top: 1rem;
+}
+
 /* FOOTER */
 
 
