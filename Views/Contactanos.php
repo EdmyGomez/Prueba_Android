@@ -6,14 +6,14 @@
         <title>Contacto</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/CSS/style.css">
+        <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
     <header class="header_pages">
         <div class="container_header_index_top">
             <div class="header_index-top">
                 <a href="/Views/Home/index.html">
-                    <img src="/Media/img/logo.svg" alt="img_logo">
+                    <img src="../Media/img/logo.svg" alt="img_logo">
                 </a>
             </div>
             <nav class="container_item_nav">
@@ -23,7 +23,7 @@
                     <li class="item_header"><a class="item_header" href="/Views/Pages/Blog.html">Blog</a></li>
                     <li class="item_header"><a class="item_header" href="/Views/Pages/Contactanos.html">Contacto</a></li>
                     <li>
-                        <button class="button_index_darkmode" type="button"><img src="/Media/img/dark-mode.svg"
+                        <button class="button_index_darkmode" type="button"><img src="../Media/img/dark-mode.svg"
                                 alt="noche" width="20px"></button>
                     </li>
                 </ul>
@@ -33,12 +33,12 @@
     </header>
     <section>
         <h1 class="normal text_center margin-20">Contacto</h1>
-        <img class="width-100_100 height" src="/Media/img/destacada3.jpg" alt="" srcset="">
+        <img class="width-100_100 height" src="../Media/img/destacada3.jpg" alt="" srcset="">
     </section>
     <section>
         <h1 class="normal text_center margin-20">Llene el Formulario de Contacto</h1>
         
-        <form action="/php/contacto.php" method="POST" class="formulario">
+        <form action="../php/contacto.php" method="POST" class="formulario">
             <fieldset>
                 <legend>Informacion Personal</legend>
                 <label for="name">Nombres</label><br>

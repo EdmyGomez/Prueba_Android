@@ -20,7 +20,7 @@ $query = "INSERT INTO contacto (nombre, correo, telefono, mensaje, opcion, presu
                             echo ' 
                             <script>
                                 alert("el correo ya existe");
-                                window.location = "../Views/Pages/Contactanos.php";
+                                window.location = "../Views/Contactanos.php";
                             </script>';
                             exit();
                         }
@@ -30,13 +30,13 @@ $query = "INSERT INTO contacto (nombre, correo, telefono, mensaje, opcion, presu
                             echo ' 
                             <script>
                                 alert("usuario ha sido almacenado correctamente");
-                                window.location = "../Views/Pages/Contactanos.php";
+                                window.location = "../Views/Contactanos.php";
                             </script>';
                         }else{
                             echo '
                             <script>
                                 alert("El usuario no ha sido almacenado correctamente");
-                                window.location = "../Views/Pages/Contactanos.php";
+                                window.location = "../Views/Contactanos.php";
                             </script>';
                         }
 
